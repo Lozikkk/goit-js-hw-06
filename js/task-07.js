@@ -6,4 +6,4 @@ const editChange = () => {
   spanText.style.fontSize = `${inputElement.value}px`;
 };
 
-inputElement.addEventListener("click", editChange);
+inputElement.addEventListener("input", editChange);
