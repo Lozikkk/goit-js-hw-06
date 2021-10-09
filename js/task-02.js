@@ -18,7 +18,7 @@ const ingredients = [
 
 const ingredientsList = document.getElementById("ingredients");
 console.log(ingredientsList);
-ingredients.forEach((ingredient) => {
+[...ingredients].forEach((ingredient) => {
   const items = document.createElement("li");
   items.textContent = ingredient;
   ingredientsList.appendChild(items);
